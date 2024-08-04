@@ -16,5 +16,4 @@ class BoxLayoutDemo(App):
     def clear_output(self):
         self.root.ids.output_label.text = ""
 
-
 BoxLayoutDemo().run()
