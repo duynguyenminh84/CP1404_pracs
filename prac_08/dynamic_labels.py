@@ -8,7 +8,7 @@ class Layout(BoxLayout):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.names = ["Cristiano Ronaldo", "Lionel Messi", "Neymar Junior", "Eden Hazard"]
+        self.names = ["Cristiano Ronaldo", "Lionel Messi", "Ney Junior", "Eden Hazard"]
         self.add_labels()
 
     def add_labels(self):
